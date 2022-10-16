@@ -1,0 +1,21 @@
+.books .row {
+}
+
+.book {
+  display: flex;
+}
+
+.book p {
+  margin-bottom: 8px;
+}
+
+.bookImage {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+.bookImage img {
+  width: 100%;
+  height: 100%;
+}
