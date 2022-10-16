@@ -1,9 +1,12 @@
 nav {
+  // margin: $center;
+  width: $content-width;
   height: 50px;
   // background-color: #000;
   display: flex;
-  // align-items: center;
+  align-items: center;
   justify-content: space-evenly;
+  font-size: 16px;
 }
 
 nav .logo {
@@ -12,33 +15,63 @@ nav .logo {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  text-align: left;
+  // text-align: left;
 }
 
 nav .logo img {
-  height: 80%;
+  height: 43px;
 }
 
 nav .logo p {
-  margin-left: 5px;
-  height: 0%;
+  padding-left: 5px;
+  margin: $center;
+}
+
+nav .searchBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+nav #search {
+  background-image: url(../images/search.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 5px 1px;
+  background-color: $site-gray;
+  opacity: 50%;
+  text-indent: 12%;
+  width: 324px;
+  height: 30px;
+}
+
+nav ::placeholder {
+  color: #000000;
 }
 
 nav .links {
   // margin-right: 20px;
-  width: 350px;
+  width: 40%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  text-align: right;
+  // text-align: right;
+}
+
+nav span img {
+  width: 25px;
+  height: 25px;
+}
+
+nav #accountImg {
+  margin-left: -7px;
+}
+
+nav #cartImg {
+  margin-left: -12px;
 }
 
 nav a {
   color: #000;
   text-decoration: none;
-  // text-transform: uppercase;
 }
-
-// nav span {
-//   color: #000;
-// }

@@ -5,28 +5,103 @@ var cart = [];
 
 var bookList = [
   {
-    // bookTitle: "Finding Me",
-    // bookAuthor: "Nathalie",
+    bookTitle: "Twilight Box Set",
+    bookAuthor: "Stephanie Meyer",
+    bookDescription:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Netus et malesuada fames ac.",
+    bookImg: "twilight-box-set.jpg",
+    price: "$99.99",
+  },
+  {
+    bookTitle: "Harry Potter Box Set",
+    bookAuthor: "J. K. Rowling",
+    bookDescription:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Netus et malesuada fames ac.",
+    bookImg: "hp-box-set.jpg",
+    price: "$100",
+  },
+  {
+    bookTitle: "A Song of Ice and Fire Box Set",
+    bookAuthor: "George R.R. Martin",
+    bookDescription:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Netus et malesuada fames ac.",
+    bookImg: "got-box-set.jpg",
+    price: "$100",
+  },
+
+  {
+    bookTitle: "Finding Me",
+    bookAuthor: "Viola Davis",
     bookDescription:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Netus et malesuada fames ac.",
     bookImg: "finding me.jpg",
-    price: "27.99",
+    price: "$27.99",
   },
   {
-    // bookTitle: "You Rock",
-    // bookAuthor: "Natty",
+    bookTitle: "The Autobiography of Martin Luther King, Jr.",
+    bookAuthor: "Clayborne Carson",
     bookDescription:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Netus et malesuada fames ac.",
     bookImg: "mlk-biography.jpg",
-    price: "19.99",
+    price: "$19.99",
   },
   {
-    // bookTitle: "We Rock",
-    // bookAuthor: "Nat",
+    bookTitle: "The Autobiography of Eleanor Roosevelt",
+    bookAuthor: "Eleanor Roosevelt",
     bookDescription:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Netus et malesuada fames ac.",
     bookImg: "elenor-roosevelt-biography.jpg",
-    price: "17.99",
+    price: "$17.99",
+  },
+
+  {
+    bookTitle: "Misery",
+    bookAuthor: "Stephen King",
+    bookDescription:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Netus et malesuada fames ac.",
+    bookImg: "misery.jpg",
+    price: "$19.99",
+  },
+  {
+    bookTitle: "Frankenstein",
+    bookAuthor: "Mary Shelley",
+    bookDescription:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Netus et malesuada fames ac.",
+    bookImg: "frankenstein.jpg",
+    price: "$15.99",
+  },
+  {
+    bookTitle: "Phantoms",
+    bookAuthor: "Dean Koontz",
+    bookDescription:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Netus et malesuada fames ac.",
+    bookImg: "phantoms.jpg",
+    price: "$19.99",
+  },
+
+  {
+    bookTitle: "The Complete Tales of Winnie the Pooh",
+    bookAuthor: "A. A. Milne",
+    bookDescription:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Netus et malesuada fames ac.",
+    bookImg: "winnie the pooh.jpg",
+    price: "$19.99",
+  },
+  {
+    bookTitle: "The Cat in the Hat",
+    bookAuthor: "Dr.Seuss",
+    bookDescription:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Netus et malesuada fames ac.",
+    bookImg: "cat and the hat.jpg",
+    price: "$15.99",
+  },
+  {
+    bookTitle: "Fun Facts About Space",
+    bookAuthor: "Baby Professor",
+    bookDescription:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Netus et malesuada fames ac.",
+    bookImg: "fun facts about space.jpg",
+    price: "$7.99",
   },
 ];
 

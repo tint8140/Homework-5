@@ -1,0 +1,49 @@
+.account {
+  //   margin: $center;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin-top: 25%;
+}
+
+.account .loginForm {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.account .form {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.account h2,
+.account input {
+  margin-bottom: 30px;
+  border: none;
+}
+
+.account h2,
+.account p {
+  font-weight: normal;
+  margin-right: auto;
+}
+
+.account input {
+  border-bottom: 1px solid $site-black;
+}
+
+.account ::placeholder {
+  color: $site-black;
+}
+
+.account #loginSubmit,
+.account #submit {
+  @include site-button();
+  width: 140px;
+  height: 35px;
+}

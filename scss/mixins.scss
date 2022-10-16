@@ -1,0 +1,6 @@
+@mixin site-button($btnPadding: 10px 15px) {
+  background-color: $site-gray;
+  padding: $btnPadding;
+  color: #fff;
+  cursor: pointer;
+}
