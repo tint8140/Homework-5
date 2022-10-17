@@ -1,12 +1,13 @@
 nav {
   // margin: $center;
   width: $content-width;
-  height: 50px;
+  height: 80px;
   // background-color: #000;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  font-size: 16px;
+  font-size: 12px;
+  border-bottom: 1px solid $site-black;
 }
 
 nav .logo {

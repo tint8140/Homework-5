@@ -1,0 +1,50 @@
+.homeBooks {
+  min-height: 200px;
+  margin: $center;
+  display: flex;
+  // position: relative;
+  // margin-bottom: 50px;
+  align-items: center;
+  justify-content: space-between;
+}
+.homeBooks .bookCover {
+  margin-top: 10%;
+}
+
+.homeBooks .hero-image {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.homeBooks img {
+  width: 160px;
+}
+
+.homeBooks .hero-text {
+  text-align: center;
+  position: relative;
+  color: $site-black;
+  width: 230px;
+  margin-top: 5%;
+}
+
+.homeBooks p {
+  color: $site-black;
+  font-size: 10px;
+  font-weight: lighter;
+}
+
+.homeBooks button {
+  width: 121px;
+  height: 40px;
+  color: $site-black;
+  font-weight: lighter;
+  background-color: $site-white;
+  border-width: 1px;
+}
+
+.homeBooks h2 {
+  font-size: 20px;
+}

@@ -1,0 +1,37 @@
+.banner {
+  //   margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 85%;
+  height: 250px;
+  background-image: linear-gradient(
+      rgba($site-gray, 0.5),
+      rgba($site-gray, 0.5)
+    ),
+    url(../images/home-hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 40px auto 0 auto;
+  position: relative;
+}
+
+.banner .banner-text {
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(-50%, -50%);
+  color: $site-white;
+}
+
+.banner h2 {
+  color: $site-white;
+  font-size: 22px;
+}
+
+.banner p {
+  font-size: 10px;
+  font-weight: lighter;
+}
