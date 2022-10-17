@@ -97,21 +97,24 @@ footer {
   background-color: #587c83;
   padding-left: 5%;
   padding-right: 5%;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  top: 100%;
+  margin-top: 3%;
 }
 
 footer .footer-left {
-  display: flex;
-  align-items: center;
+  color: #ffffff;
 }
 
 footer .footer-middle {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
   text-align: center;
+  margin-left: -140px;
 }
 
 footer a {

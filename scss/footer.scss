@@ -3,9 +3,12 @@ footer {
   background-color: $site-gray;
   padding-left: 5%;
   padding-right: 5%;
+  margin: $center;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  top: 100%;
+  margin-top: 3%;
 }
 
 // footer .footer-content {
@@ -22,17 +25,16 @@ footer {
 
 footer .footer-left {
   //   margin-left: 35px;
-  display: flex;
-  align-items: center;
+  color: $site-white;
 }
 
 footer .footer-middle {
   //   margin: $center;
   display: flex;
   align-items: center;
-
-  justify-content: space-evenly;
+  justify-content: space-between;
   text-align: center;
+  margin-left: -140px;
 }
 
 footer a {
@@ -41,7 +43,6 @@ footer a {
 }
 
 footer .footer-right {
-  //   margin-right: 35px;
 }
 
 footer .footer-right img {
