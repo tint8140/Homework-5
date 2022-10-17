@@ -122,9 +122,10 @@ export function changePage(pageID, callback) {
           <img src="images/${book.bookImg}" alt="" />
         </div>
         <div class="bookInfo">
+      
         <p> ${book.bookDescription}</p>
           <p>Price: ${book.price}</p>
-          <button id="${idx}">Buy</button>
+          <button id="${idx}">ADD TO CART</button>
         </div>
       </div>`);
       });

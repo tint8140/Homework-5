@@ -25,7 +25,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  font-size: 12px;
+  font-size: 16px;
   border-bottom: 1px solid #000000;
 }
 
@@ -112,23 +112,42 @@ footer .footer-left {
 footer .footer-middle {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   text-align: center;
-  margin-left: -140px;
 }
 
 footer a {
+  padding: 0 20px;
+  font-size: 16px;
   color: #ffffff;
   text-decoration: none;
 }
 
 footer .footer-right img {
-  width: 20px;
-  height: 20px;
+  margin: 0 10px;
+  width: 40px;
+  height: 40px;
+}
+
+.books {
+  margin: 60px 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .book {
-  display: flex;
+  display: inline-flex;
+  height: 290px;
+}
+
+.bookInfo {
+  padding: 0 20px;
+  width: 200px;
+  height: 290px;
+}
+.bookInfo .bookInfo:last-child {
+  margin-right: -20px;
+  padding: 0px 0px;
 }
 
 .book p {
@@ -136,9 +155,8 @@ footer .footer-right img {
 }
 
 .bookImage {
-  width: 100px;
-  height: 100px;
-  margin-right: 10px;
+  width: 150px;
+  height: 150px;
 }
 
 .bookImage img {
@@ -151,7 +169,7 @@ footer .footer-right img {
   align-items: center;
   justify-content: space-evenly;
   flex-direction: row;
-  margin-top: 25%;
+  margin-top: 25px;
 }
 
 .account .loginForm {
@@ -233,8 +251,9 @@ footer .footer-right img {
 
 .homeBooks {
   min-height: 200px;
-  margin: 0 auto;
+  margin: 0 40px;
   display: flex;
+  justify-items: center;
   align-items: center;
   justify-content: space-between;
 }
@@ -279,6 +298,51 @@ footer .footer-right img {
 
 .homeBooks h2 {
   font-size: 20px;
+}
+
+.about {
+  padding-top: 50px;
+  font-family: Gill;
+  display: flex;
+  align-items: center;
+  margin: 0 40px;
+}
+.about .about-bottom-section h2 {
+  font-family: Proxima;
+  font-size: 30px;
+}
+.about .about-bottom-section span {
+  font-size: 26px;
+  padding-bottom: 20px;
+}
+.about .about-bottom-section .client {
+  min-height: 150px;
+  display: flex;
+  margin-bottom: 38px;
+}
+.about .about-bottom-section .client .client-image {
+  width: 393px;
+  height: 587px;
+}
+.about .about-bottom-section .client .client1 {
+  background-image: url(../../images/about-photo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.about .about-bottom-section .client .client2 {
+  background-color: aqua;
+  background-image: url(../../images/about-photo-two.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.about .about-bottom-section .client .client-quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding-left: 25px;
 }
 
 /*# sourceMappingURL=styles.css.map */

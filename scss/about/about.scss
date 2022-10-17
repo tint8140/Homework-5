@@ -1,0 +1,76 @@
+.about {
+    padding-top: 50px;
+    font-family: Gill;
+    display: flex;
+    align-items: center;
+    // width: 980px;
+    margin: 0 40px; 
+    // to center!!!
+    // background-color: peachpuff;
+
+    .about-bottom-section {
+
+        h2 {
+            font-family: Proxima;
+            font-size: 30px;
+            // display: flex;
+            // float: right;
+
+        }
+        span{
+            font-size: 26px;
+            padding-bottom: 20px;
+        }
+
+        .client {
+            min-height: 150px;
+            display: flex;
+            margin-bottom: 38px;
+
+            .client-image {
+                width: 393px;
+                height: 587px;
+                // background-color: powderblue;
+            }
+
+            .client1 {
+                background-image: url(../../images/about-photo.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+               
+            }
+
+            .client2 {
+                background-color: aqua;
+
+                background-image: url(../../images/about-photo-two.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+
+            .client-quote {
+                display: flex;
+                flex-direction: column;
+                // justify-content: center;
+                align-items: center;
+                // position: relative;
+                // min-height: 27px;
+                width: 100%;
+                padding-left: 25px;
+                // background-color: salmon;
+
+               
+            }
+        }
+    }
+}
+
+// @media only screen and (max-width: 600px) {
+//     .about {
+//         padding: 10px;
+//         .about-bottom-section {
+//         }
+//     }
+// }
