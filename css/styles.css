@@ -169,7 +169,7 @@ footer .footer-right img {
   align-items: center;
   justify-content: space-evenly;
   flex-direction: row;
-  margin-top: 25px;
+  margin: 60px auto;
 }
 
 .account .loginForm {
@@ -343,6 +343,20 @@ footer .footer-right img {
   align-items: center;
   width: 100%;
   padding-left: 25px;
+}
+
+.blog .background {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 80%;
+  height: 400px;
+  background-color: #587C83;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 40px auto 0 auto;
+  position: relative;
 }
 
 /*# sourceMappingURL=styles.css.map */
