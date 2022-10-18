@@ -71,7 +71,7 @@ nav .links {
   width: 40%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 nav span img {
@@ -80,11 +80,11 @@ nav span img {
 }
 
 nav #accountImg {
-  margin-left: -7px;
+  margin-left: -20px;
 }
 
 nav #cartImg {
-  margin-left: -12px;
+  margin-left: -30px;
 }
 
 nav a {
@@ -92,6 +92,25 @@ nav a {
   text-decoration: none;
 }
 
+nav #cartCount {
+  width: 20px;
+  height: 20px;
+  display: inline;
+  float: right;
+  color: brown;
+}
+
+@media only screen and (max-width: 900px) {
+  .nav {
+    max-width: 490px;
+  }
+  nav a {
+    font-size: 10px;
+  }
+  nav #search {
+    width: 50%;
+  }
+}
 footer {
   height: 92px;
   background-color: #587c83;
@@ -298,6 +317,24 @@ footer .footer-right img {
 
 .homeBooks h2 {
   font-size: 20px;
+}
+
+@media only screen and (max-width: 900px) {
+  .homeBooks {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    max-width: 490px;
+  }
+  .bookCover {
+    max-width: 400px;
+  }
+}
+.items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .about {

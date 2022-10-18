@@ -49,3 +49,20 @@
 .homeBooks h2 {
   font-size: 20px;
 }
+
+@media only screen and (max-width: 900px){
+  .home {
+    // max-width: 490px;
+  }
+  .homeBooks {
+    // margin: 0 40px;
+    display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+    max-width: 490px;
+  }
+  .bookCover {
+    max-width: 400px;
+  }
+}

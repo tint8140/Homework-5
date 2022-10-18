@@ -55,7 +55,7 @@ nav .links {
   width: 40%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   // text-align: right;
 }
 
@@ -65,14 +65,47 @@ nav span img {
 }
 
 nav #accountImg {
-  margin-left: -7px;
+  margin-left: -20px;
+  
 }
 
 nav #cartImg {
-  margin-left: -12px;
+  margin-left: -30px;
 }
 
 nav a {
   color: #000;
   text-decoration: none;
+}
+
+nav #cartCount{
+  width: 20px;
+  height: 20px;
+  display: inline;
+  float: right;
+  color: brown;
+}
+
+@media only screen and (max-width: 900px){
+  .nav {
+    max-width: 490px;
+  }
+  nav a{
+    font-size: 10px;
+
+  }
+  nav #search{
+    width: 50%;
+  }
+  // .homeBooks {
+  //   // margin: 0 40px;
+  //   display: flex;
+  // align-items: center;
+  // justify-content: space-evenly;
+  // flex-direction: column;
+  //   max-width: 490px;
+  // }
+  // .bookCover {
+  //   max-width: 300px;
+  // }
 }
